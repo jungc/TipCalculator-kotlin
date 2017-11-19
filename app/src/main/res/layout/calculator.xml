@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp">
+
+    <LinearLayout
+        style="@style/formItemWrapper">
+        <TextView
+            style="@style/formItemKey"
+            android:id="@+id/price_display"
+            android:text="@string/price_text"/>
+        <EditText
+            style="@style/formItemValue"
+            android:inputType="numberDecimal"
+            android:id="@+id/price_field"/>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/formItemWrapper">
+        <TextView
+            style="@style/formItemKey"
+            android:id="@+id/tax_percent_display"
+            android:text="@string/tax_percent_text"/>
+        <EditText
+            style="@style/formItemValue"
+            android:inputType="numberDecimal"
+            android:id="@+id/tax_percent_field"/>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/formItemWrapper">
+        <TextView
+            style="@style/formItemKey"
+            android:id="@+id/tax_dollar_display"
+            android:text="@string/tax_dollar_text"/>
+        <EditText
+            style="@style/formItemValue"
+            android:inputType="numberDecimal"
+            android:id="@+id/tax_dollar_field"/>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/formItemWrapper">
+        <TextView
+            style="@style/formItemKey"
+            android:id="@+id/tip_percent_display"
+            android:text="@string/tip_percent_text"/>
+        <EditText
+            style="@style/formItemValue"
+            android:inputType="numberDecimal"
+            android:id="@+id/tip_percent_field"/>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/formItemWrapper">
+        <TextView
+            style="@style/formItemKey"
+            android:id="@+id/tip_dollar_display"
+            android:text="@string/tip_dollar_text"/>
+        <EditText
+            style="@style/formItemValue"
+            android:inputType="numberDecimal"
+            android:id="@+id/tip_dollar_field"/>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/formItemWrapper">
+        <TextView
+            style="@style/formItemKey"
+            android:id="@+id/split_n_display"
+            android:text="@string/split_n_text"/>
+        <EditText
+            style="@style/formItemValue"
+            android:inputType="numberDecimal"
+            android:id="@+id/split_n_field"/>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/formItemWrapper">
+        <TextView
+            style="@style/formItemKey"
+            android:id="@+id/split_value_display"
+            android:text="@string/split_value_text"/>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/formItemWrapper">
+        <TextView
+            style="@style/formItemKey"
+            android:id="@+id/total_price_display"
+            android:text="@string/total_price_text"/>
+    </LinearLayout>
+
+</LinearLayout>

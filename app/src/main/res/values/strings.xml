@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TipCalculator</string>
+
+    <string name="price_text">Price: %1$.2f</string>
+    <string name="tax_percent_text">Tax Percent: %1$.2f</string>
+    <string name="tax_dollar_text">Tax Dollar: %1$.2f</string>
+    <string name="tip_percent_text">Tip Percent: %1$.2f</string>
+    <string name="tip_dollar_text">Tip Dollar: %1$.2f</string>
+    <string name="total_price_text">Total Price: %1$.2f</string>
+    <string name="split_n_text">Split Party: %1$.2f</string>
+    <string name="split_value_text">Split Dollar: %1$.2f</string>
+
+</resources>
